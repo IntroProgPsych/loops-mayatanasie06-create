@@ -20,3 +20,17 @@
 
 
 # Write your code here:
+correct_PIN = 2609
+attempts = 0
+PIN=int(input("Write a PIN code: "))
+attempts += 1
+
+while PIN != correct_PIN:
+    print ("Wrong")
+    PIN=int(input("PIN: "))
+    attempts +=1
+
+if attempts ==1:
+    print ("Correct! It took you one attempt")
+else:
+    print ("Correct! It took you" , attempts , "attempts")
