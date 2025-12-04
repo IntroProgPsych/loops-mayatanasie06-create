@@ -36,4 +36,6 @@ translations = {
     "red": "roșu",
     "sun": "soare"
 }
+while True:
+    word = intput
 

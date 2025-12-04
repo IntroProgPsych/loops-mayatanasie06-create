@@ -11,3 +11,6 @@
 # 4
 
 # Write your code here:
+n= int(input("Write a positive integer n: "))
+for i in range(1,n):
+    print(i)
